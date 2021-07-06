@@ -3,11 +3,18 @@ body{
     margin: 0%;
 }
 h1{
-    font-size: 50px;
+    font-size: 65px;
 }
-section{
+h2{
+    font-size: 45px;
+}
+p{
+     font-size: 25px;
+}
+
+.flexible-con{
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 120px;
 }
 .single-word{
     color: orange;
@@ -37,6 +44,64 @@ a{
     border-radius: 50px;
    
     
+}
+.intro{
+    width: 50%;
+    padding-left: 10%;
+    
+}
+.mid-banner{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+ 
+}
+.my-recipie{
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
+.design{
+        width: 29%;
+        height: 100%;
+        margin-left: 2%;
+        margin-right: 2%;
+        box-shadow: 10px 10px 40px gray;
+        border-radius: 30px;
+        padding-left: 3px;
+}
+#img-design {
+    width: 90%;
+    height: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.inner-text{
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+.bottom-design{
+    width: 80%;
+    height: 29%;
+    margin-left: 10%;
+    margin-right: 10%;
+     box-shadow: 10px 10px 40px gray;
+     border-radius: 20px;
+     padding-left: 3px;
+}
+.follower{
+    padding-left: 10%;
+    padding-right: 18%;
+}
+.bottom{
+    text-align: center;
+    background-color: gray;
+    background-size: 20%;
 }
 
 
